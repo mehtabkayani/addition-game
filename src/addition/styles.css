@@ -1,0 +1,80 @@
+body {
+  background: rgba(217, 255, 0, 0.904);
+}
+.container {
+  background: rgb(229, 255, 0);
+  height: 100vh;
+}
+
+.digit-display {
+  margin-top: 150px;
+  height: 50px;
+  width: 320px;
+  backgroundcolor: yellow;
+}
+
+.coll-1 {
+  background: burlywoodrgb(229, 255, 0);
+}
+.coll-2 {
+  background: rgb(229, 255, 0);
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background: rgb(229, 255, 0);
+}
+
+.correct {
+  height: 50px;
+  width: 320px;
+  /* background: rgb(229, 255, 0); */
+  background-color: rgba(217, 255, 0, 0.904);
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+/* BUTTONS */
+
+.nr {
+  width: 20%;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 25%;
+  background-color: rgb(255, 166, 0);
+}
+
+.button-0 {
+  width: 40%;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 25%;
+  background-color: rgb(255, 166, 0);
+}
+
+.button-c {
+  width: 20%;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 25%;
+  background-color: rgb(255, 166, 0);
+}
+
+.answer {
+  margin-right: 5px;
+}
+
+.nextQuestion {
+  margin-left: 15px;
+}
+
+/* PICTURE */
+.bee {
+  height: 100px;
+  float: right;
+  margin: 15px;
+}
